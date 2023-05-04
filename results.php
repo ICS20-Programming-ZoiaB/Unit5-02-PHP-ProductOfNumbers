@@ -13,5 +13,5 @@
   }
 
   //displaying the sum/product to user
-  echo "The product of the two numbers is " . $sum . ".";
+  echo "The product of your two selected numbers is " . $sum . ".";
 ?>

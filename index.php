@@ -29,15 +29,15 @@
         echo "<h1>Product of Numbers Webpage, PHP</h1>";
         echo "<h3>This is my producs webpage!</h3>";
         echo "<p>Enter two positive integers in the spaces below.</p>";
-        echo "<h3>Your Input:</h3>";
+        echo "<h3>Enter your input:</h3>";
       ?>
       
       <!-- Form for user input -->
       <form action="./results.php" method="post" target="results">
         <label for="first number">Enter a positive integer:</label>
-        <input type="number" step="1" min="0" name="first-number" placeholder="An integer..."><br><br>
+        <input type="number" step="0.01" name="first-number" placeholder="An integer..."><br><br>
         <label for="second number">Enter another positive integer:</label>
-        <input type="number" min="0" step="1" name="second-number" placeholder="Another integer..."><br><br>
+        <input type="number" step="0.01" name="second-number" placeholder="Another integer..."><br><br>
         <input type="submit" value="Submit Numbers" id="styled-button">
       </form
         
