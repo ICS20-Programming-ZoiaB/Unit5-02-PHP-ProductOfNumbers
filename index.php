@@ -17,6 +17,7 @@
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />
     
     <!-- Title -->
     <title>Product of Numbers Webpage, PHP</title>
@@ -26,8 +27,8 @@
     <!-- Header and text -->
       <?php
         echo "<h1>Product of Numbers Webpage, PHP</h1>";
-        echo "<h3>This is my producs webpage</h3>";
-        echo "<p>Enter two positive integers in the spaces below</p>";
+        echo "<h3>This is my producs webpage!</h3>";
+        echo "<p>Enter two positive integers in the spaces below.</p>";
         echo "<h3>Your Input:</h3>";
       ?>
       
@@ -41,6 +42,7 @@
       </form
         
     <!-- Iframe  -->
+    <br>
     <iframe id="results" name="results"></iframe>
 
     <!-- Image -->
