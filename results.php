@@ -4,8 +4,8 @@
   $sum = 0;
 
   //getting the user's two numbers to find the product
-  $firstNum = intval($_POST['first-number']);
-  $secondNum = intval($_POST['second-number']);
+  $firstNum = floatval($_POST['first-number']);
+  $secondNum = floatval($_POST['second-number']);
 
   //using a for loop to do repeated addition to get the product
   for ($counter = 1; $counter <= $secondNum; $counter++) {
