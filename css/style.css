@@ -1,0 +1,26 @@
+/* Created by: ZoiaB
+* Created on: May 2023
+* This CSS file defines the style for index.php
+* ICS2O-Unit5-02-PHP-ProductOfNumbers
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #afeedb;
+}
+
+h1 {
+  padding: 30px;
+  background-color: #5fd3b0;
+  text-align: center;
+  color: white;
+}
+
+iframe {
+  border: none;
+  padding: 20px 30px;
+  height: 50px;
+  background-color: #afeedb;
+}
