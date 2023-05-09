@@ -12,7 +12,7 @@
     $product = $product + abs($firstNum);
   }
 
-  //If one of the two entered integers was negative, multiply by -1 to add back negative
+  //Add back negative sign if needed
   if (($firstNum < 0 && $secondNum > 0) || ($firstNum > 0 && $secondNum < 0)) {
     $product = -$product;
   }
