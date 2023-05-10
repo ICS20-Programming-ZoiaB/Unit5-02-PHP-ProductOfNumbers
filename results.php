@@ -14,7 +14,7 @@
 
   //Add back negative sign if needed
   if (($firstNum < 0 && $secondNum > 0) || ($firstNum > 0 && $secondNum < 0)) {
-    $product = -$product;
+    $product = $product * -1;
   }
 
   //displaying the product/product to user
