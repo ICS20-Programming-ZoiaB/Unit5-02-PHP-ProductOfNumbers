@@ -26,5 +26,5 @@
 
   //displaying the product/product to user
   echo "The product of your two selected numbers is " . $product . ".";
-}
+  }
 ?>
