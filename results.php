@@ -15,8 +15,8 @@
   //Else
   else {
     //using a for loop to do repeated addition to get the product
-    for ($counter = 1; $counter <= abs($secondNum); $counter++) {
-      $product = $product + abs($firstNum);
+    for ($counter = 1; $counter <= abs(intval($secondNum)); $counter++) {
+      $product = $product + abs(intval(($firstNum));
     }
 
   //Add back negative sign if needed

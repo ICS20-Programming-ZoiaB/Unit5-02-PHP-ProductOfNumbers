@@ -27,8 +27,8 @@
     <!-- Header and text -->
       <?php
         echo "<h1>Product of Numbers Webpage, PHP</h1>";
-        echo "<h3>This is my producs webpage!</h3>";
-        echo "<p>Enter two integers in the spaces below.</p>";
+        echo "<h3>This is my products webpage!</h3>";
+        echo "<p>Enter two positive integers in the spaces below.</p>";
         echo "<h3>Enter your input:</h3>";
       ?>
       
